@@ -1,2 +1,2 @@
-# Python-
+# Python
 Having fun with python
