@@ -15,3 +15,23 @@ print(type(a))
 print(type(b))
 print(id(a))
 print(id(b))
+
+
+# name can point to any object
+a=3
+a='abc'
+a=[3,4,5]
+a={5,9}
+a=print
+a('Hello')
+################################
+a=3
+print(id(a))
+a=a+5
+print(id(a))
+
+####
+a=3
+a=5
+del a
+print(a)
