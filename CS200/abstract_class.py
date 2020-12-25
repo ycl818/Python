@@ -16,3 +16,5 @@ class Drink(Product):
     def hi2(self):
         print("hi2")
 d = Drink()
+
+print(type(Product))
